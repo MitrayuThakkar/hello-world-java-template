@@ -8,5 +8,6 @@ class HelloWorldTest {
   void itHasAGreeting() {
     HelloWorld helloWorld = new HelloWorld();
     assertNotNull(helloWorld.getGreeting());
+    assertEquals("Hello World!", helloWorld.getGreeting());
   }
 }
